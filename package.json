@@ -19,6 +19,8 @@
     "node": ">=4"
   },
   "scripts": {
+    "build": "grunt",
+    "concat": "grunt concat",
     "test": "grunt test"
   },
   "dependencies": {},
@@ -27,8 +29,8 @@
     "coffee-script": ">= 1.6",
     "grunt": "~1.0",
     "grunt-contrib-coffee": "~1.0",
+    "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-concat": "~1.0",
     "grunt-contrib-cssmin": "~2.2",
     "grunt-contrib-jasmine": "~1.1",
     "grunt-contrib-uglify": "~3.0",
